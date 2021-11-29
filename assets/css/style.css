@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-align: right;
 }
 
-#header svg {
+#header .tri-bullet {
   transform: translateY(-3px);
 }
 #header p {
@@ -148,6 +148,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 20px;
   }
   #header .logo a svg {
     height: 60px;
@@ -157,6 +158,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
   #header h1 {
     font-size: 15px;
+    margin-top: 7px;
   }
   #header p {
     display: none;
@@ -1239,10 +1241,6 @@ section {
   border-top: 1px solid #fff;
   padding-top: 20px;
 }
-@media (max-width: 992px) {
-  .divider {
-  }
-}
 
 #footer {
   background: #230050;
@@ -1289,12 +1287,19 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 5px;
 }
-#footer .footer-top .footer-links svg {
+#footer .footer-top .ilo-logo {
   height: 80px;
 }
 @media (max-width: 991px) {
-  #footer .footer-top .footer-links svg {
+  .footer-info {
+    margin-top: 20px;
+  }
+  #footer .ilo-logo {
     height: 60px;
+    margin: 15px 0;
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 20px;
   }
 }
 #footer .footer-top .footer-links ul {
