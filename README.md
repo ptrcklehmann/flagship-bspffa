@@ -1,1 +1,2 @@
-# ILO Global Flagship Programme | Building social protection floors for all
+# Building social protection floors for all
+## ILO Global Flagship Programme
