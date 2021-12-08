@@ -1,0 +1,24 @@
+{
+
+    "name": "1.0.1",
+    "description": "ILO Global Flagship Programme - Building social protection floors for all",
+    "version": "1.0.0",
+    "main": "index.html",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ptrcklehmann/flagship-bspffa.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ptrcklehmann/flagship-bspffa/issues"
+    },
+    "homepage": "https://github.com/ptrcklehmann/flagship-bspffa#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
+}

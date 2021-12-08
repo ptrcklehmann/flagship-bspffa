@@ -1,0 +1,13 @@
+$primary: #1e2dbe;
+$bs-blue: #1e2dbe;
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+$custom-theme-colors: {
+    "ilo-blue": #1e2dbe;
+}
+
+;
+// merge the maps to add new theme colors
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
